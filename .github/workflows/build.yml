@@ -12,14 +12,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone Folia
-        run: git clone https://github.com/PaperMC/Folia.git
+      - name: Checkout Folia
+        uses: actions/checkout@v4
+        with:
+          repository: PaperMC/Folia
+          ref: dev/1.21.1
+          path: Folia
       - name: Checkout the Repo
         uses: actions/checkout@v4
         with:
           path: repo
       - name: Setup Git user
-        uses: fregante/setup-git-user@v2
+        uses: qoomon/actions--setup-git@v1
       - name: Change Branch to gh-pages
         run: |
           cd ./repo
