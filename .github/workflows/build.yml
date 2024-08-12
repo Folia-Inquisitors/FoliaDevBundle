@@ -21,13 +21,15 @@ jobs:
       - name: Checkout the Repo
         uses: actions/checkout@v4
         with:
+          ref: gh-pages
           path: repo
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
       - name: Setup Git user
         uses: qoomon/actions--setup-git@v1
-      - name: Change Branch to gh-pages
-        run: |
-          cd ./repo
-          git branch -M gh-pages
       - name: Publish
         run: |
           cd ./Folia
