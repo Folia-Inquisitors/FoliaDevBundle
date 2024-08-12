@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: repo
+      - name: Setup Git user
+        uses: fregante/setup-git-user@v2
       - name: Change Branch to gh-pages
         run: |
           cd ./repo
