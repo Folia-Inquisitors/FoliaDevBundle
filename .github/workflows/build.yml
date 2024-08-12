@@ -1,0 +1,31 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone Folia
+        run: git clone https://github.com/PaperMC/Folia.git
+      - name: Checkout the Repo
+        uses: actions/checkout@v4
+        with:
+          path: repo
+      - name: Change Branch to gh-pages
+        run: |
+          cd ./repo
+          git branch -M gh-pages
+      - name: Publish
+        run: |
+          cd ./Folia
+          ./gradlew -PpublishDevBundle -Dmaven.repo.local=$GITHUB_WORKSPACE/repo publishToMavenLocal
+      - name: Push the gh-pages Repo
+        run: |
+          git add .
+          git commit -m "Update Repo"
+          git push origin gh-pages
