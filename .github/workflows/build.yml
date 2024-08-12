@@ -25,6 +25,7 @@ jobs:
       - name: Publish
         run: |
           cd ./Folia
+          ./gradlew applyPatches
           ./gradlew -PpublishDevBundle -Dmaven.repo.local=$GITHUB_WORKSPACE/repo publishToMavenLocal
       - name: Push the gh-pages Repo
         run: |
