@@ -18,7 +18,7 @@ jobs:
           repository: PaperMC/Folia
           ref: dev/1.21.1
           path: Folia
-      - name: Checkout the Repo
+      - name: Checkout the Publish Repo
         uses: actions/checkout@v4
         with:
           ref: gh-pages
@@ -37,6 +37,7 @@ jobs:
           ./gradlew -PpublishDevBundle -Dmaven.repo.local=$GITHUB_WORKSPACE/repo publishToMavenLocal
       - name: Push the gh-pages Repo
         run: |
+          cd ./repo
           git add .
           git commit -m "Update Repo"
           git push origin gh-pages
