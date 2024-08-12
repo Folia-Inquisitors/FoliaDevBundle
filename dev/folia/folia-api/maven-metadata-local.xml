@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.folia</groupId>
+  <artifactId>folia-api</artifactId>
+  <versioning>
+    <latest>1.21.1-R0.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.21.1-R0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240812080111</lastUpdated>
+  </versioning>
+</metadata>
