@@ -114,6 +114,13 @@
           }
         },
         {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
@@ -160,11 +167,11 @@
         {
           "name": "folia-api-1.21.1-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.1-R0.1-SNAPSHOT.jar",
-          "size": 2279907,
-          "sha512": "4ce84275af28747c739cca41767e708e61f8fc15235873ab7005e9bfb8a45ef2e415e8a2b39f8e8ca764ad36ec6d71acfde76c0e3d8e26ec93af7b30f0eb6f76",
-          "sha256": "c0930e7d1c74c6ba93eab82919d4b52338576791975158143bc175d703b53799",
-          "sha1": "ea86e417132831de9e5d960945a52556a4b01fe6",
-          "md5": "48fc0c4acc50ed99985b4637e23fb030"
+          "size": 2344682,
+          "sha512": "c8f3b3b108e8c8ff190b7a2e382265d19190813a86fc887c12d5722509f771201dbb5a35d582a1558d644ad59f7e63f222100f4444a5da5f35897a746b7943eb",
+          "sha256": "b847af59c013e8930b6f479a282e0dc39cdcdb22bc100b80ca17056e7426d970",
+          "sha1": "63f497392044687e6f46493ac07b756ed0200288",
+          "md5": "8ad87bde759618011d1d55b368ab0f8a"
         }
       ],
       "capabilities": [
@@ -199,14 +206,14 @@
           "group": "org.ow2.asm",
           "module": "asm",
           "version": {
-            "requires": "9.7"
+            "requires": "9.7.1"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-commons",
           "version": {
-            "requires": "9.7"
+            "requires": "9.7.1"
           }
         },
         {
@@ -299,6 +306,13 @@
           }
         },
         {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
@@ -338,11 +352,11 @@
         {
           "name": "folia-api-1.21.1-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.1-R0.1-SNAPSHOT.jar",
-          "size": 2279907,
-          "sha512": "4ce84275af28747c739cca41767e708e61f8fc15235873ab7005e9bfb8a45ef2e415e8a2b39f8e8ca764ad36ec6d71acfde76c0e3d8e26ec93af7b30f0eb6f76",
-          "sha256": "c0930e7d1c74c6ba93eab82919d4b52338576791975158143bc175d703b53799",
-          "sha1": "ea86e417132831de9e5d960945a52556a4b01fe6",
-          "md5": "48fc0c4acc50ed99985b4637e23fb030"
+          "size": 2344682,
+          "sha512": "c8f3b3b108e8c8ff190b7a2e382265d19190813a86fc887c12d5722509f771201dbb5a35d582a1558d644ad59f7e63f222100f4444a5da5f35897a746b7943eb",
+          "sha256": "b847af59c013e8930b6f479a282e0dc39cdcdb22bc100b80ca17056e7426d970",
+          "sha1": "63f497392044687e6f46493ac07b756ed0200288",
+          "md5": "8ad87bde759618011d1d55b368ab0f8a"
         }
       ],
       "capabilities": [
@@ -375,11 +389,11 @@
         {
           "name": "folia-api-1.21.1-R0.1-SNAPSHOT-sources.jar",
           "url": "folia-api-1.21.1-R0.1-SNAPSHOT-sources.jar",
-          "size": 1655692,
-          "sha512": "e5ea0ed547da1012a49a78a1c26b8518b384d19968c327dedd799746da4559dc00a0d92815a702e4cd9efccebf96764c91ba55511336fe3a39a2063d7371b3a0",
-          "sha256": "bb8015576f1baf96690f95d652934f9daa2632473960adaa9286414e26af6191",
-          "sha1": "b17c672fd59c102db6604b21e2b0fb2a8e121f12",
-          "md5": "e34759ea857695fc8f4a03f7e8106a1d"
+          "size": 1706464,
+          "sha512": "211eb137e415be012cc805fbc0336c4257d94b1ba0a0e4730dcb246f0def8f007cc7fd99176a4e63ca266601cd3313d6f0b5da26f111f27912356005aefd5414",
+          "sha256": "ae1ee1f0c36082c8487d865f4cacea33f42c4b00b667502da3e38a63135453fc",
+          "sha1": "303bbe2fa1c65579888890202f8968906cc1bb4c",
+          "md5": "0625536ecb34bb5bab7d79c10a581a03"
         }
       ],
       "capabilities": [
@@ -412,11 +426,11 @@
         {
           "name": "folia-api-1.21.1-R0.1-SNAPSHOT-javadoc.jar",
           "url": "folia-api-1.21.1-R0.1-SNAPSHOT-javadoc.jar",
-          "size": 13165711,
-          "sha512": "a563cbc3e5a194eeb7935570c482c23e598bfcb4c13fd2bc5e3777e5558a8b00750d19d66c52ae22ec4f172bfebe520b32aa1c52175134e96c99d5bcdc3a402e",
-          "sha256": "7fbb2e4a73d63e10208d9a9860e23980e1d6f7ba1ae5c9ff8369f61227218a92",
-          "sha1": "e0a275ecb8fea46577b63ef948c19566d66c2de6",
-          "md5": "fc0e3dec28ddafc1ac4cd1c621e35758"
+          "size": 13484678,
+          "sha512": "98827bab6cb3f893b5ec2b2e10af90e63e0481cec22186fed891c8213f188942f69fb9112b7b94691b24f60367fbca7a42238c9761983e832aeca0c559640048",
+          "sha256": "664dc04607e1bb6f53a9458d5d47c5f8cacfcae02ce4b08f46c59242eca5430c",
+          "sha1": "5ad5409153fa418c32b6e4ed933f22881575cc02",
+          "md5": "a0629e01c3a9aa5c411326a343e72938"
         }
       ],
       "capabilities": [
