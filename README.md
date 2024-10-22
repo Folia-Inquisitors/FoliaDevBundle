@@ -12,7 +12,7 @@ Although PaperMC has a similar Maven repository exactly for this, they are slow 
 repositories {
     maven {
         name = "folia-inquistors-repo"
-        url = "https://github.com/Folia-Inquisitors/FoliaDevBundle/raw/gh-pages/"
+        url = "https://folia-inquisitors.github.io/FoliaDevBundle/"
     }
     // Your other repositories
 }
