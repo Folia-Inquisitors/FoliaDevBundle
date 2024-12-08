@@ -1,0 +1,459 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.folia",
+    "module": "folia-api",
+    "version": "1.21.4-R0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.2.9"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.19"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.8"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.15"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        },
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
+          "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
+          "size": 2533205,
+          "sha512": "2e917d96e3924deaab84ef38dbaac47a952e0b1de71370f27bbca900eca9a0d0c8e6f2f77f6c1487d35400a7592a9a7016f82a1ecc61f8cdfa84b4d4fa85a15e",
+          "sha256": "3753cb35d39859946baa429f27be652ded1b17aa88d26c4ab86f054ea692f748",
+          "sha1": "bc67cf1572ca7887b74ad044e65729c63802b49d",
+          "md5": "a6c2ce21a7935a353fc4a043e7bd975a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.2.9"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.19"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.8"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.15"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.9"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.17.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        }
+      ],
+      "files": [
+        {
+          "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
+          "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
+          "size": 2533205,
+          "sha512": "2e917d96e3924deaab84ef38dbaac47a952e0b1de71370f27bbca900eca9a0d0c8e6f2f77f6c1487d35400a7592a9a7016f82a1ecc61f8cdfa84b4d4fa85a15e",
+          "sha256": "3753cb35d39859946baa429f27be652ded1b17aa88d26c4ab86f054ea692f748",
+          "sha1": "bc67cf1572ca7887b74ad044e65729c63802b49d",
+          "md5": "a6c2ce21a7935a353fc4a043e7bd975a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
+          "url": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
+          "size": 1834352,
+          "sha512": "24efac9cb70671b5e8db452e95f2c7217b6fca97ecf244961f7e47f80f2b66bd4bfbf6e51f2f21cbe4ab78ff6788343e70de6f51ee3361425e9e82f27f207570",
+          "sha256": "ce0b46fefa7d86e18264a794851913bc4f0b60a84144803f3485d8cfc0813419",
+          "sha1": "46f2533ba127e98a291219510e5848f88ac6d843",
+          "md5": "542748ada448d2ee95eee41629b9702a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:1.21.4-R0.1-SNAPSHOT",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
+          "url": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
+          "size": 14657312,
+          "sha512": "c689ac6e504f95193ac71409494d4240f5448aee1dd1df744c8aa59d8a8f27cc2c02129b092881375f6c2556756ff15e82ecd3eeeb17e65e2a04b71e74fb0c7b",
+          "sha256": "52cdb121aa3408aa7dd06cdec836d3baed1a96bee275be9ba406b1c29b8ba969",
+          "sha1": "5fb73bf37cb12d5a243b1a2c39e384a2099bc565",
+          "md5": "fe88b2306485f1af51da0bd03a7965ba"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}
