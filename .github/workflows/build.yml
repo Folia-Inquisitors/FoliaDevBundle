@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: PaperMC/Folia
-          ref: dev/1.21.3
+          ref: dev/1.21.4
           path: Folia
       - name: Checkout the Publish Repo
         uses: actions/checkout@v4
