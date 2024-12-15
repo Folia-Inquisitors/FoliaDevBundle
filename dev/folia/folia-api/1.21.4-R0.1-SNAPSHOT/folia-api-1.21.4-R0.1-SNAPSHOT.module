@@ -71,7 +71,13 @@
           "module": "joml",
           "version": {
             "requires": "1.10.8"
-          }
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
         },
         {
           "group": "com.googlecode.json-simple",
@@ -168,11 +174,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
-          "size": 2533205,
-          "sha512": "2e917d96e3924deaab84ef38dbaac47a952e0b1de71370f27bbca900eca9a0d0c8e6f2f77f6c1487d35400a7592a9a7016f82a1ecc61f8cdfa84b4d4fa85a15e",
-          "sha256": "3753cb35d39859946baa429f27be652ded1b17aa88d26c4ab86f054ea692f748",
-          "sha1": "bc67cf1572ca7887b74ad044e65729c63802b49d",
-          "md5": "a6c2ce21a7935a353fc4a043e7bd975a"
+          "size": 2534090,
+          "sha512": "8c868f9f51b9ba3566caad1cd3c1d9dd57c8437abfe24b0cdb0c6d1dbee738d81363765a8575904ea4ee7d54717c3bc34b0027a729912a7b9cb90f49adcaa152",
+          "sha256": "d153dbdb93037c83bc2257a3c18dc21a29715b7d59bfff3aac1693a173c038de",
+          "sha1": "69897c79b0147a9d623e4f8d9c0b390d260efbe3",
+          "md5": "1d030616f30df80cc46997204a6c85e9"
         }
       ],
       "capabilities": [
@@ -264,7 +270,13 @@
           "module": "joml",
           "version": {
             "requires": "1.10.8"
-          }
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
         },
         {
           "group": "com.googlecode.json-simple",
@@ -354,11 +366,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
-          "size": 2533205,
-          "sha512": "2e917d96e3924deaab84ef38dbaac47a952e0b1de71370f27bbca900eca9a0d0c8e6f2f77f6c1487d35400a7592a9a7016f82a1ecc61f8cdfa84b4d4fa85a15e",
-          "sha256": "3753cb35d39859946baa429f27be652ded1b17aa88d26c4ab86f054ea692f748",
-          "sha1": "bc67cf1572ca7887b74ad044e65729c63802b49d",
-          "md5": "a6c2ce21a7935a353fc4a043e7bd975a"
+          "size": 2534090,
+          "sha512": "8c868f9f51b9ba3566caad1cd3c1d9dd57c8437abfe24b0cdb0c6d1dbee738d81363765a8575904ea4ee7d54717c3bc34b0027a729912a7b9cb90f49adcaa152",
+          "sha256": "d153dbdb93037c83bc2257a3c18dc21a29715b7d59bfff3aac1693a173c038de",
+          "sha1": "69897c79b0147a9d623e4f8d9c0b390d260efbe3",
+          "md5": "1d030616f30df80cc46997204a6c85e9"
         }
       ],
       "capabilities": [
@@ -392,11 +404,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
-          "size": 1834352,
-          "sha512": "24efac9cb70671b5e8db452e95f2c7217b6fca97ecf244961f7e47f80f2b66bd4bfbf6e51f2f21cbe4ab78ff6788343e70de6f51ee3361425e9e82f27f207570",
-          "sha256": "ce0b46fefa7d86e18264a794851913bc4f0b60a84144803f3485d8cfc0813419",
-          "sha1": "46f2533ba127e98a291219510e5848f88ac6d843",
-          "md5": "542748ada448d2ee95eee41629b9702a"
+          "size": 1834931,
+          "sha512": "ab644509c081aee2d275feb6c456857a40582d4fc455244db1598622686760152800aec6fafe158f1b9cdd80c7306a0902fffee3f4eb3a675f3b12fadd0e4092",
+          "sha256": "2ec2a789db987c6271e5eff1e926c9894375a97d86f7a728d6c4b5cb2775cb81",
+          "sha1": "2a8f0215c25fa4f3f5c6fd68a65af61d2f4717fa",
+          "md5": "07739f901a8b9f1d329fe20f5cf7d05c"
         }
       ],
       "capabilities": [
@@ -430,11 +442,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
-          "size": 14657312,
-          "sha512": "c689ac6e504f95193ac71409494d4240f5448aee1dd1df744c8aa59d8a8f27cc2c02129b092881375f6c2556756ff15e82ecd3eeeb17e65e2a04b71e74fb0c7b",
-          "sha256": "52cdb121aa3408aa7dd06cdec836d3baed1a96bee275be9ba406b1c29b8ba969",
-          "sha1": "5fb73bf37cb12d5a243b1a2c39e384a2099bc565",
-          "md5": "fe88b2306485f1af51da0bd03a7965ba"
+          "size": 14661054,
+          "sha512": "f09a69d85315ea62347ed5018081db9b8ebd7d50d365d20c1129a3d76665c9b8191b7c140851670ee75639382abfe6178c0aa04b00b0d36ef1e8637a9adce697",
+          "sha256": "5f9d1970afe8984d015faf9e980bc0010dd1c72eed86894b4343a8f9db0cbd26",
+          "sha1": "88f5950bc0380fcd8b9844003b9a9999dca3c6cd",
+          "md5": "8a39e9fb50f06ac8bd6e0e67ba06f43a"
         }
       ],
       "capabilities": [
