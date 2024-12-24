@@ -3,7 +3,7 @@
   <groupId>dev.folia</groupId>
   <artifactId>folia-server</artifactId>
   <versioning>
-    <lastUpdated>20241215183254</lastUpdated>
+    <lastUpdated>20241224190725</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.21.4-R0.1-SNAPSHOT</value>
-        <updated>20241215183254</updated>
+        <updated>20241224190725</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
