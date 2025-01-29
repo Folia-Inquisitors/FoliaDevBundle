@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.11.1"
+      "version": "8.12"
     }
   },
   "variants": [
@@ -26,13 +26,6 @@
       },
       "dependencies": [
         {
-          "group": "com.mojang",
-          "module": "brigadier",
-          "version": {
-            "requires": "1.2.9"
-          }
-        },
-        {
           "group": "com.google.guava",
           "module": "guava",
           "version": {
@@ -45,19 +38,6 @@
           "version": {
             "requires": "2.11.0"
           }
-        },
-        {
-          "group": "net.md-5",
-          "module": "bungeecord-chat",
-          "version": {
-            "requires": "1.20-R0.2-deprecated+build.19"
-          },
-          "excludes": [
-            {
-              "group": "com.google.guava",
-              "module": "guava"
-            }
-          ]
         },
         {
           "group": "org.yaml",
@@ -114,6 +94,26 @@
           }
         },
         {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.3.10"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.19"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
           "group": "org.apache.maven",
           "module": "maven-resolver-provider",
           "version": {
@@ -131,7 +131,7 @@
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
-            "requires": "4.17.0"
+            "requires": "4.18.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -174,11 +174,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
-          "size": 2534090,
-          "sha512": "722033fe3b21813f5da52a6fa2e0cab8816c621145d3159896bd966b606096c0f63f770fe83c7d4a34aec34681e96408db8e988ba22daf69d211e6e4a4363415",
-          "sha256": "cc14bc753e15a1158b4aea21fa4931fda0ba02dce5313e9de4bc5d1f430de480",
-          "sha1": "d942be2f23629616e1a0bb19d6eb4d49d60b091c",
-          "md5": "8435dac14704fa3b66bb404f59b76b3c"
+          "size": 2551908,
+          "sha512": "eeb6b40c3c9974316840af00a84fa06cd95c19e81d9698c2c2bac4fe3b94ef4df399837037ffb5d3ae7a220a7fb1ca301b59cdff21cb3cdd1431a9fac36900c8",
+          "sha256": "8295d51d417dedd138d706d55dffcd8beaae2fb9f85c3a966289ae14df29af76",
+          "sha1": "d2f953cc2f5a3a353a3fece17db67a59492579e1",
+          "md5": "420e1d415bbbc381fe4cad337b879321"
         }
       ],
       "capabilities": [
@@ -193,8 +193,23 @@
           "version": "1.21.4-R0.1-SNAPSHOT"
         },
         {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
           "group": "dev.folia",
           "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
           "version": "1.21.4-R0.1-SNAPSHOT"
         }
       ]
@@ -211,27 +226,6 @@
       },
       "dependencies": [
         {
-          "group": "org.ow2.asm",
-          "module": "asm",
-          "version": {
-            "requires": "9.7.1"
-          }
-        },
-        {
-          "group": "org.ow2.asm",
-          "module": "asm-commons",
-          "version": {
-            "requires": "9.7.1"
-          }
-        },
-        {
-          "group": "com.mojang",
-          "module": "brigadier",
-          "version": {
-            "requires": "1.2.9"
-          }
-        },
-        {
           "group": "com.google.guava",
           "module": "guava",
           "version": {
@@ -244,19 +238,6 @@
           "version": {
             "requires": "2.11.0"
           }
-        },
-        {
-          "group": "net.md-5",
-          "module": "bungeecord-chat",
-          "version": {
-            "requires": "1.20-R0.2-deprecated+build.19"
-          },
-          "excludes": [
-            {
-              "group": "com.google.guava",
-              "module": "guava"
-            }
-          ]
         },
         {
           "group": "org.yaml",
@@ -313,6 +294,26 @@
           }
         },
         {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.3.10"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.20-R0.2-deprecated+build.19"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
           "group": "org.apache.maven",
           "module": "maven-resolver-provider",
           "version": {
@@ -330,7 +331,7 @@
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
-            "requires": "4.17.0"
+            "requires": "4.18.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -366,11 +367,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT.jar",
-          "size": 2534090,
-          "sha512": "722033fe3b21813f5da52a6fa2e0cab8816c621145d3159896bd966b606096c0f63f770fe83c7d4a34aec34681e96408db8e988ba22daf69d211e6e4a4363415",
-          "sha256": "cc14bc753e15a1158b4aea21fa4931fda0ba02dce5313e9de4bc5d1f430de480",
-          "sha1": "d942be2f23629616e1a0bb19d6eb4d49d60b091c",
-          "md5": "8435dac14704fa3b66bb404f59b76b3c"
+          "size": 2551908,
+          "sha512": "eeb6b40c3c9974316840af00a84fa06cd95c19e81d9698c2c2bac4fe3b94ef4df399837037ffb5d3ae7a220a7fb1ca301b59cdff21cb3cdd1431a9fac36900c8",
+          "sha256": "8295d51d417dedd138d706d55dffcd8beaae2fb9f85c3a966289ae14df29af76",
+          "sha1": "d2f953cc2f5a3a353a3fece17db67a59492579e1",
+          "md5": "420e1d415bbbc381fe4cad337b879321"
         }
       ],
       "capabilities": [
@@ -385,8 +386,23 @@
           "version": "1.21.4-R0.1-SNAPSHOT"
         },
         {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
           "group": "dev.folia",
           "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
           "version": "1.21.4-R0.1-SNAPSHOT"
         }
       ]
@@ -404,11 +420,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT-sources.jar",
-          "size": 1834931,
-          "sha512": "472d167444d425143a11fb7af41dfb696d7d0a4388f2e6694bfd37c2a151d24871d9945f01ed8dbb223879bda3370c261012a9c04fc829a9aa4210a8f6155e3e",
-          "sha256": "fa02beb4f99b4b817f7f0093f64afb2c517277836a91eb9a4a98dc6663361c57",
-          "sha1": "5b38f143c79019a8f0186481e24a87618ae6cd0e",
-          "md5": "c5f91c0253872d811d2cd22470d15938"
+          "size": 1853095,
+          "sha512": "e2f1aa1ea478a1197271f257b78a0562fdbf484827600d75f0056bdcb788ed1634b357fab8232ced0fa4ab3eb8fda219c6e386fddedd19c40f0568a54db52c86",
+          "sha256": "67d1437ce994e42261092277040f0316f4f05f4e619911a0dfca26ef606eee4f",
+          "sha1": "bf8996c8e51ddc5eaa09479cb082e46464437354",
+          "md5": "187e6d99429b473e2f5f6b2341144c1b"
         }
       ],
       "capabilities": [
@@ -423,8 +439,23 @@
           "version": "1.21.4-R0.1-SNAPSHOT"
         },
         {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
           "group": "dev.folia",
           "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
           "version": "1.21.4-R0.1-SNAPSHOT"
         }
       ]
@@ -442,11 +473,11 @@
         {
           "name": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
           "url": "folia-api-1.21.4-R0.1-SNAPSHOT-javadoc.jar",
-          "size": 14661054,
-          "sha512": "96bccc086484e65e9cd480bdfebb7b38890a32775d1140ce08ab50b53148ae57ae0e0a501ff6dedaacdc75612276bfb5c49ab4ac9df9837621a847abf9af7c91",
-          "sha256": "0f6a9b67e47e4dae7b9788ae54be5d9e656a62b876b8a60b8a58bba9a097424f",
-          "sha1": "64720994f274052c78a851bc9a650fc185e1d32e",
-          "md5": "1e9a4808bfdf86d92597507e8602919c"
+          "size": 14812958,
+          "sha512": "7918b7baa977fbd048acb890feca9efadba7f28b6f7024db0f76d8278afd6ac52fdfd123e8ee091783b569a223ecf7b59d788d43dc2deb94b7b95aa4a467f0a4",
+          "sha256": "345244bc7037c7978911d1331be574445dfe5a86309d98980403ac3fe03567cf",
+          "sha1": "2c6741f059e004d47395b308c3c82acac1442ff6",
+          "md5": "28929d9f091098e69579d64747add82d"
         }
       ],
       "capabilities": [
@@ -461,8 +492,23 @@
           "version": "1.21.4-R0.1-SNAPSHOT"
         },
         {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
           "group": "dev.folia",
           "name": "folia-api",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "1.21.4-R0.1-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
           "version": "1.21.4-R0.1-SNAPSHOT"
         }
       ]
