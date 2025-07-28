@@ -1,0 +1,68 @@
+name: Detect Latest Folia
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:
+
+permissions: write-all
+
+jobs:
+  detect-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: List all Folia branches
+        id: folia-branches
+        run: |
+          gh api repos/PaperMC/Folia/branches --paginate --jq '.[].name' > branches.txt
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Find latest version and commit
+        id: latest
+        run: |
+          # Extract versions and branch names
+          grep '^ver/' branches.txt | sed 's|^ver/||' > versions.txt
+          # Sort SemVer (requires sort -V)
+          latest_version=$(sort -V versions.txt | tail -n1)
+          latest_branch="ver/${latest_version}"
+          # Get latest commit SHA for the branch
+          latest_commit=$(gh api repos/PaperMC/Folia/branches/${latest_branch} --jq .commit.sha)
+          # Write CURRENT file
+          printf "%s\n%s\n" "$latest_version" "$latest_commit" > CURRENT
+          echo "version=$latest_version" >> $GITHUB_OUTPUT
+          echo "commit=$latest_commit" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Check for CURRENT file changes
+        id: check_current
+        run: |
+          if [ -f CURRENT ]; then
+            if git diff --quiet CURRENT; then
+              echo "changed=false" >> $GITHUB_OUTPUT
+            else
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit CURRENT if changed
+        if: steps.check_current.outputs.changed == 'true'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add CURRENT
+          git commit -m "Update CURRENT with latest Folia version and commit"
+          git push
+
+      - name: Trigger build workflow if CURRENT changed
+        if: steps.check_current.outputs.changed == 'true'
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: folia-update
