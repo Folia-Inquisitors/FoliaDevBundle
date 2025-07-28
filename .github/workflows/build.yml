@@ -2,6 +2,11 @@ name: Build & Deploy
 
 on:
   workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to use for PaperMC/Folia'
+        required: false
+        default: ''
   repository_dispatch:
     types: [folia-update]
 
@@ -23,11 +28,20 @@ jobs:
           echo "version=$version" >> $GITHUB_OUTPUT
           echo "commit=$commit" >> $GITHUB_OUTPUT
 
+      - name: Determine branch to use
+        id: branch
+        run: |
+          if [ -z "${{ github.event.inputs.branch }}" ]; then
+            echo "branch=ver/${{ steps.current.outputs.version }}" >> $GITHUB_OUTPUT
+          else
+            echo "branch=${{ github.event.inputs.branch }}" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout Folia
         uses: actions/checkout@v4
         with:
           repository: PaperMC/Folia
-          ref: ver/${{ steps.current.outputs.version }}
+          ref: ${{ steps.branch.outputs.branch }}
           path: Folia
 
       - name: Checkout the Publish Repo
