@@ -4,6 +4,8 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
+  repository_dispatch:
+    types: [folia-update]
 
 permissions: write-all
 
@@ -12,29 +14,45 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Read CURRENT file
+        id: current
+        run: |
+          version=$(sed -n '1p' CURRENT)
+          commit=$(sed -n '2p' CURRENT)
+          echo "version=$version" >> $GITHUB_OUTPUT
+          echo "commit=$commit" >> $GITHUB_OUTPUT
+
       - name: Checkout Folia
         uses: actions/checkout@v4
         with:
           repository: PaperMC/Folia
-          ref: ver/1.21.7
+          ref: ver/${{ steps.current.outputs.version }}
           path: Folia
+
       - name: Checkout the Publish Repo
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: repo
+
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
+
       - name: Setup Git user
         uses: qoomon/actions--setup-git@v1
+
       - name: Publish
         run: |
           cd ./Folia
           ./gradlew applyAllPatches
           ./gradlew -PpublishDevBundle -Dmaven.repo.local=$GITHUB_WORKSPACE/repo publishToMavenLocal
+
       - name: Push the gh-pages Repo
         run: |
           cd ./repo
