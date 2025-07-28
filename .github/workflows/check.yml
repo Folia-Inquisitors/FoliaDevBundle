@@ -2,7 +2,7 @@ name: Detect Latest Folia
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions: write-all
@@ -14,25 +14,46 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Read previous CURRENT (if exists)
+        id: read_old_current
+        run: |
+          if [ -f CURRENT ]; then
+            echo "CURRENT file exists. Saving to OLD_CURRENT."
+            cat CURRENT
+            cp CURRENT OLD_CURRENT
+          else
+            echo "No CURRENT file found. Creating empty OLD_CURRENT."
+            touch OLD_CURRENT
+          fi
+          echo "Contents of OLD_CURRENT:"
+          cat OLD_CURRENT
+
       - name: List all Folia branches
         id: folia-branches
         run: |
+          echo "Fetching branches from PaperMC/Folia..."
           gh api repos/PaperMC/Folia/branches --paginate --jq '.[].name' > branches.txt
+          echo "Fetched branches:"
+          cat branches.txt
         env:
           GH_TOKEN: ${{ github.token }}
 
       - name: Find latest version and commit
         id: latest
         run: |
-          # Extract versions and branch names
+          echo "Extracting versions and branch names from branches.txt..."
           grep '^ver/' branches.txt | sed 's|^ver/||' > versions.txt
-          # Sort SemVer (requires sort -V)
+          echo "Versions found:"
+          cat versions.txt
           latest_version=$(sort -V versions.txt | tail -n1)
           latest_branch="ver/${latest_version}"
-          # Get latest commit SHA for the branch
+          echo "Latest version: $latest_version"
+          echo "Latest branch: $latest_branch"
           latest_commit=$(gh api repos/PaperMC/Folia/branches/${latest_branch} --jq .commit.sha)
-          # Write CURRENT file
+          echo "Latest commit: $latest_commit"
           printf "%s\n%s\n" "$latest_version" "$latest_commit" > CURRENT
+          echo "New CURRENT file:"
+          cat CURRENT
           echo "version=$latest_version" >> $GITHUB_OUTPUT
           echo "commit=$latest_commit" >> $GITHUB_OUTPUT
         env:
@@ -41,22 +62,28 @@ jobs:
       - name: Check for CURRENT file changes
         id: check_current
         run: |
-          if [ -f CURRENT ]; then
-            if git diff --quiet CURRENT; then
-              echo "changed=false" >> $GITHUB_OUTPUT
-            else
-              echo "changed=true" >> $GITHUB_OUTPUT
-            fi
+          echo "Comparing CURRENT and OLD_CURRENT..."
+          echo "OLD_CURRENT:"
+          cat OLD_CURRENT
+          echo "CURRENT:"
+          cat CURRENT
+          if cmp -s CURRENT OLD_CURRENT; then
+            echo "No changes detected in CURRENT."
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
+            echo "Changes detected in CURRENT."
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit CURRENT if changed
         if: steps.check_current.outputs.changed == 'true'
         run: |
+          echo "Committing changes to CURRENT..."
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add CURRENT
+          git status
+          git diff --staged
           git commit -m "Update CURRENT with latest Folia version and commit"
           git push
 
