@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-1.21.8-R0.1-SNAPSHOT.zip",
           "url": "dev-bundle-1.21.8-R0.1-SNAPSHOT.zip",
-          "size": 26380566,
-          "sha512": "fb00ac5e2585feefb8a99c9cebfcd06b3529e659ecec95aaf9b7290d8299e49d1a206dc5bd01d1812d9976b3f60ca6f8a7d4f2d47c497fd989eef729b7ae4243",
-          "sha256": "c2d4a9096413b828d7248da2dace737e8e460674d747b4c50dd515ecd7a6155f",
-          "sha1": "93632b25a29e500bdccf3d253c92df715431d2ef",
-          "md5": "15b1bffc2465adf39c8d67367d703873"
+          "size": 26408896,
+          "sha512": "5f564719f5a45b507033006ba1ce7aeb9dc461fd111294600aaa6b485a13317beba4cf282636dc159944d87eaf5a9da4548b52671fe476022d85fbb96510220f",
+          "sha256": "3fea89afc02da5b603e4075a15f3a718cb3c8696edcebdaae03aa0e573b1944b",
+          "sha1": "ea94ce088255eabb3f7a138b7cae6ad2e86f09b1",
+          "md5": "be29a5511a043ad1edcf8d05374a9277"
         }
       ]
     },
@@ -103,10 +103,7 @@
         },
         {
           "group": "net.kyori",
-          "module": "adventure-text-serializer-ansi",
-          "version": {
-            "requires": "4.23.0"
-          }
+          "module": "adventure-text-serializer-ansi"
         },
         {
           "group": "org.apache.logging.log4j",
@@ -153,14 +150,7 @@
           "group": "org.spongepowered",
           "module": "configurate-yaml",
           "version": {
-            "requires": "4.2.0-20250225.064233-199"
-          }
-        },
-        {
-          "group": "org.spongepowered",
-          "module": "configurate-core",
-          "version": {
-            "requires": "4.2.0-20250225.064233-204"
+            "requires": "4.2.0"
           }
         },
         {
@@ -229,7 +219,7 @@
           "group": "io.papermc",
           "module": "mache",
           "version": {
-            "requires": "1.21.8+build.1"
+            "requires": "1.21.8+build.2"
           }
         }
       ]
@@ -278,10 +268,7 @@
         },
         {
           "group": "net.kyori",
-          "module": "adventure-text-serializer-ansi",
-          "version": {
-            "requires": "4.23.0"
-          }
+          "module": "adventure-text-serializer-ansi"
         },
         {
           "group": "org.apache.logging.log4j",
@@ -328,14 +315,7 @@
           "group": "org.spongepowered",
           "module": "configurate-yaml",
           "version": {
-            "requires": "4.2.0-20250225.064233-199"
-          }
-        },
-        {
-          "group": "org.spongepowered",
-          "module": "configurate-core",
-          "version": {
-            "requires": "4.2.0-20250225.064233-204"
+            "requires": "4.2.0"
           }
         },
         {
@@ -404,7 +384,7 @@
           "group": "io.papermc",
           "module": "mache",
           "version": {
-            "requires": "1.21.8+build.1"
+            "requires": "1.21.8+build.2"
           }
         }
       ]

@@ -118,7 +118,7 @@
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
-            "requires": "4.23.0"
+            "requires": "4.24.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -161,11 +161,11 @@
         {
           "name": "folia-api-1.21.8-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.8-R0.1-SNAPSHOT.jar",
-          "size": 2714737,
-          "sha512": "fdcdd4de68995fb528f0f3f23fe834ad48344121092cc855d4a947a228bdf7e6297787f86f504863faad5fa9f31e386a763965520153c72c0ad28a3b13f3e1ed",
-          "sha256": "8e23971cf30468b401eb5f1fe386e051cff059e57900c651214cf0f6d0022697",
-          "sha1": "ee1af7425a9d612e18f8717a000dad45b1e5681b",
-          "md5": "b96c3cf16b47ea46606ad1b3e06a164d"
+          "size": 2716015,
+          "sha512": "38cb4b8faf3d8fe1fc673324d10dcf5320117aaaf7b781fcf3752c6a6e10e984279f4a0ad7ecbddf8c84714d426964a9639205a57c9326087d03bbdf8b6a064b",
+          "sha256": "2743e4c0f554733c6c49b16aa43d0fd8e10b2ed63d853bba64b812fdb42ced5f",
+          "sha1": "7e6f95195b47f2887046b3baaf310ae9a8031845",
+          "md5": "f6db6f95e9d20c4a600b373e7c1a5bbc"
         }
       ],
       "capabilities": [
@@ -319,7 +319,7 @@
           "group": "net.kyori",
           "module": "adventure-bom",
           "version": {
-            "requires": "4.23.0"
+            "requires": "4.24.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -355,11 +355,11 @@
         {
           "name": "folia-api-1.21.8-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.8-R0.1-SNAPSHOT.jar",
-          "size": 2714737,
-          "sha512": "fdcdd4de68995fb528f0f3f23fe834ad48344121092cc855d4a947a228bdf7e6297787f86f504863faad5fa9f31e386a763965520153c72c0ad28a3b13f3e1ed",
-          "sha256": "8e23971cf30468b401eb5f1fe386e051cff059e57900c651214cf0f6d0022697",
-          "sha1": "ee1af7425a9d612e18f8717a000dad45b1e5681b",
-          "md5": "b96c3cf16b47ea46606ad1b3e06a164d"
+          "size": 2716015,
+          "sha512": "38cb4b8faf3d8fe1fc673324d10dcf5320117aaaf7b781fcf3752c6a6e10e984279f4a0ad7ecbddf8c84714d426964a9639205a57c9326087d03bbdf8b6a064b",
+          "sha256": "2743e4c0f554733c6c49b16aa43d0fd8e10b2ed63d853bba64b812fdb42ced5f",
+          "sha1": "7e6f95195b47f2887046b3baaf310ae9a8031845",
+          "md5": "f6db6f95e9d20c4a600b373e7c1a5bbc"
         }
       ],
       "capabilities": [
@@ -408,11 +408,11 @@
         {
           "name": "folia-api-1.21.8-R0.1-SNAPSHOT-sources.jar",
           "url": "folia-api-1.21.8-R0.1-SNAPSHOT-sources.jar",
-          "size": 1948521,
-          "sha512": "2d369800b5d69a017883b79de8e25fe6b0c6943444401cbd96f57401f2c028de6679162918f52317985c141e605b3302c39814e5de7bbdbba3c73ba7f9c27c9a",
-          "sha256": "a6c5ef40265ece6c19b411affc8d34be3d35dbb81eb565f33383d31b59f62469",
-          "sha1": "bed7a6ed35a220968b135fd5df78c383599570ec",
-          "md5": "a35e13156c04dbaa1afa5504c89754c1"
+          "size": 1950209,
+          "sha512": "89403133b471ccf252834cb8c636b7e3e8d55a4483213d6f4cfcce5f29f8c6dcf8c6dfb975c07acfe060df792cccaeab92552a6be3631284ba5e485a992079af",
+          "sha256": "eda1c4ca1f1920597a959c3a9490613bc9dec9af7bf72b32053f5090e5d8d1bd",
+          "sha1": "0f9e9b00db21437a86be473decf4e2cab29c2c3a",
+          "md5": "731e19fd09f7f5edebafcfbfe1228b40"
         }
       ],
       "capabilities": [
@@ -461,11 +461,11 @@
         {
           "name": "folia-api-1.21.8-R0.1-SNAPSHOT-javadoc.jar",
           "url": "folia-api-1.21.8-R0.1-SNAPSHOT-javadoc.jar",
-          "size": 15718398,
-          "sha512": "78047b55d8ed78503f149c1375f4043b24abce9cdcd399babf2f94cc164287d5695e3a4ab5cb9a474beb389828f1a1b88df25c4995e3d1394df256b5e62951cc",
-          "sha256": "786a6c1427f243599c57deb803dc9048cf3a1685e4b2b083a268a1fcc4a9ba00",
-          "sha1": "90e2190b6f98bc40a1cdfdbe26234dad2452655b",
-          "md5": "810a287337ea567fed6b753dd080d8df"
+          "size": 15736283,
+          "sha512": "e4e09db98983ebd4e958576eb9575f8e66915c4494dc21f2943ee9452abdda44e32d451d4e935ae511bfe33ce70f7183dba141d9182362129562a194a911b341",
+          "sha256": "153118b41808d263b9ec77c237159dc8c6d0546e15ded66c868e9d731ae22590",
+          "sha1": "e9b3541ea36261078f9b9cc1f4afa9726f555087",
+          "md5": "6585434e92b57637ce11651d6c1928e3"
         }
       ],
       "capabilities": [
