@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.14.1"
+      "version": "8.14.3"
     }
   },
   "variants": [
@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-1.21.8-R0.1-SNAPSHOT.zip",
           "url": "dev-bundle-1.21.8-R0.1-SNAPSHOT.zip",
-          "size": 26408896,
-          "sha512": "5f564719f5a45b507033006ba1ce7aeb9dc461fd111294600aaa6b485a13317beba4cf282636dc159944d87eaf5a9da4548b52671fe476022d85fbb96510220f",
-          "sha256": "3fea89afc02da5b603e4075a15f3a718cb3c8696edcebdaae03aa0e573b1944b",
-          "sha1": "ea94ce088255eabb3f7a138b7cae6ad2e86f09b1",
-          "md5": "be29a5511a043ad1edcf8d05374a9277"
+          "size": 26412094,
+          "sha512": "8df9b6c87ff83e89d143056d30e4e3735e2b5083ff91f8a8a6a87b417fc4c476d9f9a4ba0e85bab84194826e7289b8f19e9cda4f2505dc3edad6d9282fd00b7e",
+          "sha256": "b59b0ee8f855f7ed6f2b879cc85f2460ea9573f773a41e4c4554bd60ae3a9a20",
+          "sha1": "c59524f47299beb6fcff7b83bec9dac2335443e7",
+          "md5": "4ca10392a93326896a40e8aebbba0937"
         }
       ]
     },
