@@ -3,13 +3,14 @@
   <groupId>dev.folia</groupId>
   <artifactId>folia-api</artifactId>
   <versioning>
-    <latest>1.21.8-R0.1-SNAPSHOT</latest>
+    <latest>1.21.11-R0.1-SNAPSHOT</latest>
     <versions>
       <version>1.21.5-R0.1-SNAPSHOT</version>
       <version>1.21.6-R0.1-SNAPSHOT</version>
       <version>1.21.7-R0.1-SNAPSHOT</version>
       <version>1.21.8-R0.1-SNAPSHOT</version>
+      <version>1.21.11-R0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20250904132736</lastUpdated>
+    <lastUpdated>20251217025803</lastUpdated>
   </versioning>
 </metadata>
