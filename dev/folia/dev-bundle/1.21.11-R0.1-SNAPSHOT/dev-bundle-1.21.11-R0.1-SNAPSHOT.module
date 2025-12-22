@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-1.21.11-R0.1-SNAPSHOT.zip",
           "url": "dev-bundle-1.21.11-R0.1-SNAPSHOT.zip",
-          "size": 25643971,
-          "sha512": "45cd1266667065fe6f045ab50dab02ab27b14cc42741d7a550e2c7226caa566100649a25103653e308ed11839c8969a665bb76b80cda4f0bb16a773ddd3af116",
-          "sha256": "01a7bce07e5b39ca1c843eead526f0ef38337727e1f6ae9ff56dd9dff8036908",
-          "sha1": "f4a64441b33f17c43d38bfe37e86867a030cd930",
-          "md5": "7d93e133e85006a76299791f5ebdb9ba"
+          "size": 25654685,
+          "sha512": "eebdd0e2e487e6666cafcd70d79273555fef56f4ea6114c6a9327c2d23d99e5d6501a4ae7204205327015ae836791204af5b039650760de3f0668d1e40c3c2c4",
+          "sha256": "cb14d8d1630f21018c91cae5edbc008e6c07c899cb78a62ff3fa50def5af5408",
+          "sha1": "9b2a69948ad7c9f8a693be3cd7f61c1e4b3d1b73",
+          "md5": "314ea52b98e5ad968ee50377d1899e11"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "group": "ca.spottedleaf",
           "module": "concurrentutil",
           "version": {
-            "requires": "0.0.7"
+            "requires": "0.0.8"
           }
         },
         {
@@ -242,7 +242,7 @@
           "group": "ca.spottedleaf",
           "module": "concurrentutil",
           "version": {
-            "requires": "0.0.7"
+            "requires": "0.0.8"
           }
         },
         {
