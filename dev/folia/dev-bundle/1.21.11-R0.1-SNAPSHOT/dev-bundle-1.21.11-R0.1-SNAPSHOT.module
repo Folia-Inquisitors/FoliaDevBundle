@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-1.21.11-R0.1-SNAPSHOT.zip",
           "url": "dev-bundle-1.21.11-R0.1-SNAPSHOT.zip",
-          "size": 27516309,
-          "sha512": "285ce9b7bc3c3c2dd027236233918c233f0b0c91272c616c991974d91457f8c46ae5d534897311b6e4543b1281143203749a54bc1e12401caee1806ee9980907",
-          "sha256": "0d1afb097a12c3a70f85ec62871435565f363f3e422d864195e701d7d7dbeccf",
-          "sha1": "b55a234f02f5f0805137e69446d5b67d2165c903",
-          "md5": "ef1845622c84b9557a03fc974548006c"
+          "size": 27522647,
+          "sha512": "1e89d03eebe14c11cc598bcf1fc71a58d56fc357f74a12f067eedfe8b72d00f459344e9e3a81120b86182e458faa09db0e0148e4a55f33225fe20b57bda0b1a2",
+          "sha256": "61768fb9566e0974ecaeb2b70a9c5abda8fb2250fb3ebffd6daac6ac09e2dfd4",
+          "sha1": "5f75383d331c462a14f0d8a2777823f931d6e426",
+          "md5": "9116bd5721ad7f77db160c5535f95103"
         }
       ]
     },
@@ -129,7 +129,7 @@
           "group": "io.netty",
           "module": "netty-codec-haproxy",
           "version": {
-            "requires": "4.1.118.Final"
+            "requires": "4.2.7.Final"
           }
         },
         {
@@ -294,7 +294,7 @@
           "group": "io.netty",
           "module": "netty-codec-haproxy",
           "version": {
-            "requires": "4.1.118.Final"
+            "requires": "4.2.7.Final"
           }
         },
         {

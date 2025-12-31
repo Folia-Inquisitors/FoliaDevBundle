@@ -161,11 +161,11 @@
         {
           "name": "folia-api-1.21.11-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.11-R0.1-SNAPSHOT.jar",
-          "size": 2799247,
-          "sha512": "ffaa985576744f10ed1357f9054a938a3d44f6e098b037ad7e0342b65092b67f409831c0fbeb764fd737a28f0bc407f1f36f28a7a3a2870c0cde707d5f3c15ed",
-          "sha256": "4a1d8430bb08cc02825e1c4d82b10baced175602fe3d939a37144b912080355f",
-          "sha1": "a5a03c3d95ea61badf15230b55767bc14ac9946a",
-          "md5": "c4b60f4e2404d819199c00b117708eec"
+          "size": 2800120,
+          "sha512": "f0b5a49e293fd9c53a7dca04666374af499d09af16e9e12ceea46f272a557d96854307c3ec4303ef6cae7e39e6395e93cf0a47d02dd124c21b05770ca0240239",
+          "sha256": "4ab877485880a2a0a94afa2d51ed228678733b90310a8d94fb0d2df409189d6f",
+          "sha1": "acc3cd65d68cb8ecc80999d756fbab37c3b6b271",
+          "md5": "91394df519ad0056ceb25381f3a35e63"
         }
       ],
       "capabilities": [
@@ -355,11 +355,11 @@
         {
           "name": "folia-api-1.21.11-R0.1-SNAPSHOT.jar",
           "url": "folia-api-1.21.11-R0.1-SNAPSHOT.jar",
-          "size": 2799247,
-          "sha512": "ffaa985576744f10ed1357f9054a938a3d44f6e098b037ad7e0342b65092b67f409831c0fbeb764fd737a28f0bc407f1f36f28a7a3a2870c0cde707d5f3c15ed",
-          "sha256": "4a1d8430bb08cc02825e1c4d82b10baced175602fe3d939a37144b912080355f",
-          "sha1": "a5a03c3d95ea61badf15230b55767bc14ac9946a",
-          "md5": "c4b60f4e2404d819199c00b117708eec"
+          "size": 2800120,
+          "sha512": "f0b5a49e293fd9c53a7dca04666374af499d09af16e9e12ceea46f272a557d96854307c3ec4303ef6cae7e39e6395e93cf0a47d02dd124c21b05770ca0240239",
+          "sha256": "4ab877485880a2a0a94afa2d51ed228678733b90310a8d94fb0d2df409189d6f",
+          "sha1": "acc3cd65d68cb8ecc80999d756fbab37c3b6b271",
+          "md5": "91394df519ad0056ceb25381f3a35e63"
         }
       ],
       "capabilities": [
@@ -408,11 +408,11 @@
         {
           "name": "folia-api-1.21.11-R0.1-SNAPSHOT-sources.jar",
           "url": "folia-api-1.21.11-R0.1-SNAPSHOT-sources.jar",
-          "size": 1999877,
-          "sha512": "f8710e1b5d21a4d31ccc8a33b12e3bf04bea1b4b93baa7af1de0f6cd008d84f500342237cf398e7da45d20f09ba940e4a79231fdb3c98400308d35c3883cc96f",
-          "sha256": "2ac900eb18d7611f61d4609fa970d445e67df0e658499385831580ee39afd858",
-          "sha1": "311217c28fa12e8d19588b267a7a1453a5748f41",
-          "md5": "660eca08dbe8a456059dd8ff5f7804ed"
+          "size": 2000172,
+          "sha512": "2b9fca37ac0213de681a29f6600d30fc39f7d0aaa4fb92b0751802a8c32305b349ec0e687bf5301242952a668b5a0b1f348514dbec542c70950fa1336466039a",
+          "sha256": "3317402cc10dad0a2421d720e91cb3751a44cb4865fc86834cd4ad3c7a7853b0",
+          "sha1": "5612baa921df89746c26f94515c6714ffd6ebd24",
+          "md5": "6460bfc3a39de7b4f4d2a729e6fedad8"
         }
       ],
       "capabilities": [
@@ -461,11 +461,11 @@
         {
           "name": "folia-api-1.21.11-R0.1-SNAPSHOT-javadoc.jar",
           "url": "folia-api-1.21.11-R0.1-SNAPSHOT-javadoc.jar",
-          "size": 16173673,
-          "sha512": "1d235b1d5ed1552f5286d9bf91216f6e66d37aaae0d0e1289ff65b8f960c7944b4d449c85c52a9e45bc9530f11807373e8ab71bbed2f1f31894e54efc3b8bb18",
-          "sha256": "bf75fee5313b799a4afa065741ca57185c9b3be722c971ca8c719e7863a263da",
-          "sha1": "4344d449c002554ce76501323d92b1398c1b3050",
-          "md5": "fceba6a8f5feb4deb1a5b2cba1e427e3"
+          "size": 16179652,
+          "sha512": "ad94eddaff0bacf6791010a65a196e5a790e7bd0d530e118fa31697f8e68cf0de4a5df9fe35b64401c7225644189bc381ac904db02d3836893f8e80a57e6bfe8",
+          "sha256": "951f0af13df527f827475ddd1235ab0ea65e384273f616a0d2a7616b5f030b9a",
+          "sha1": "18f23b109075e68c878c32036cb4f53ce8e4b0ff",
+          "md5": "e23d0849d3f922bdb3d3cd998081cfb7"
         }
       ],
       "capabilities": [
