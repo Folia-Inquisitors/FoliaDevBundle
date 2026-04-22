@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Read CURRENT file
         id: current
@@ -38,14 +38,14 @@ jobs:
           fi
 
       - name: Checkout Folia
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: PaperMC/Folia
           ref: ${{ steps.branch.outputs.branch }}
           path: Folia
 
       - name: Checkout the Publish Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
           path: repo
