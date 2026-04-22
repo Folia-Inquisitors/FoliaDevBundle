@@ -3,15 +3,14 @@
   <groupId>dev.folia</groupId>
   <artifactId>dev-bundle</artifactId>
   <versioning>
-    <latest>unspecified</latest>
-    <release>unspecified</release>
+    <latest>1.21.11-R0.1-SNAPSHOT</latest>
+    <release>1.21.11-R0.1-SNAPSHOT</release>
     <versions>
       <version>1.21.5-R0.1-SNAPSHOT</version>
       <version>1.21.6-R0.1-SNAPSHOT</version>
       <version>1.21.7-R0.1-SNAPSHOT</version>
       <version>1.21.8-R0.1-SNAPSHOT</version>
       <version>1.21.11-R0.1-SNAPSHOT</version>
-      <version>unspecified</version>
     </versions>
     <lastUpdated>20260420140047</lastUpdated>
   </versioning>
