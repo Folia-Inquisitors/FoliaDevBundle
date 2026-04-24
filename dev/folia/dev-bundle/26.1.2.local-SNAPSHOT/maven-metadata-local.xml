@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>dev.folia</groupId>
+  <artifactId>dev-bundle</artifactId>
+  <versioning>
+    <lastUpdated>20260424220325</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>26.1.2.local-SNAPSHOT</value>
+        <updated>20260424220325</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>26.1.2.local-SNAPSHOT</value>
+        <updated>20260424220325</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>26.1.2.local-SNAPSHOT</value>
+        <updated>20260424220325</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>26.1.2.local-SNAPSHOT</version>
+</metadata>

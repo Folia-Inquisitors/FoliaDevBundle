@@ -1,0 +1,505 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.folia",
+    "module": "folia-api",
+    "version": "26.1.2.local-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:26.1.2.local-SNAPSHOT",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.5.0-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.18"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.3.10"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.21-R0.2-deprecated+build.21"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.26.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        },
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.49.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "folia-api-26.1.2.local-SNAPSHOT.jar",
+          "url": "folia-api-26.1.2.local-SNAPSHOT.jar",
+          "size": 2832866,
+          "sha512": "d70d58d5d54ce349e0a6f9d46e41414b1002544df3e07031ffa9feb005deaba13be5e16a9815164f899aaae07297c79d66560d86840a57bf054adc1caf82bcb4",
+          "sha256": "c67cad819fc2a430abf2523309c86ae77e3deffed69c6e0f0288e348f0856248",
+          "sha1": "c8e0f6433b919eb41db33c69c04b2938e281a11b",
+          "md5": "391ac8cbbfae5d090809d87743406d8e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:26.1.2.local-SNAPSHOT",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-connector-basic",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-transport-http",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.5.0-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.10.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.18"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.3.10"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "bungeecord-chat",
+          "version": {
+            "requires": "1.21-R0.2-deprecated+build.21"
+          },
+          "excludes": [
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-bom",
+          "version": {
+            "requires": "4.26.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-plain"
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-logger-slf4j"
+        }
+      ],
+      "files": [
+        {
+          "name": "folia-api-26.1.2.local-SNAPSHOT.jar",
+          "url": "folia-api-26.1.2.local-SNAPSHOT.jar",
+          "size": 2832866,
+          "sha512": "d70d58d5d54ce349e0a6f9d46e41414b1002544df3e07031ffa9feb005deaba13be5e16a9815164f899aaae07297c79d66560d86840a57bf054adc1caf82bcb4",
+          "sha256": "c67cad819fc2a430abf2523309c86ae77e3deffed69c6e0f0288e348f0856248",
+          "sha1": "c8e0f6433b919eb41db33c69c04b2938e281a11b",
+          "md5": "391ac8cbbfae5d090809d87743406d8e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:26.1.2.local-SNAPSHOT",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "folia-api-26.1.2.local-SNAPSHOT-sources.jar",
+          "url": "folia-api-26.1.2.local-SNAPSHOT-sources.jar",
+          "size": 2017612,
+          "sha512": "4065650737a62b97c4e918ba746c2533266d4392b755b101bb2c7abb4c47324b7cf11240da38f9b0d0ae9fd8fecc15484f4987e9380f77618acf333b017da044",
+          "sha256": "6141bb6bb5be82093c724a23cd39fc762e059b6d5bba2c52be3b45cd0c8ec96b",
+          "sha1": "d1ffbf5466f15d2bb2fb325b36f6871d77ec4ac1",
+          "md5": "1730d4434683c0309564045c60283500"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "io.papermc.paperweight.main-capability": "dev.folia:folia-api:26.1.2.local-SNAPSHOT",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "folia-api-26.1.2.local-SNAPSHOT-javadoc.jar",
+          "url": "folia-api-26.1.2.local-SNAPSHOT-javadoc.jar",
+          "size": 21430776,
+          "sha512": "b962c795674e6e803d9bb631f5da0cbe3ae2d5b02de8bb120505fc8be495d27b325bbb3e1f9fc307f5138b9cab19d532a0c6d801ed186dcc1c42a3f6cbf81a61",
+          "sha256": "9e1d9aabd05cf7c30c2f3db08a0e8c562348289b9b6ae9b9db86fd0793ef554e",
+          "sha1": "3eb3bb6e327c526905dd618446046369a145c182",
+          "md5": "dfa139fabe1a024dc49615416d28d886"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.papermc.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.bukkit",
+          "name": "bukkit",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "org.spigotmc",
+          "name": "spigot-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "dev.folia",
+          "name": "folia-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-api",
+          "version": "26.1.2.local-SNAPSHOT"
+        },
+        {
+          "group": "com.destroystokyo.paper",
+          "name": "paper-mojangapi",
+          "version": "26.1.2.local-SNAPSHOT"
+        }
+      ]
+    }
+  ]
+}

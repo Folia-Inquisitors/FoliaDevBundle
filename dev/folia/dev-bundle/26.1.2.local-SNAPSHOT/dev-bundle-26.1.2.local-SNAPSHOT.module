@@ -1,0 +1,323 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.folia",
+    "module": "dev-bundle",
+    "version": "26.1.2.local-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "devBundle",
+      "attributes": {
+        "io.papermc.paperweight.dev-bundle-output": "zip"
+      },
+      "files": [
+        {
+          "name": "dev-bundle-26.1.2.local-SNAPSHOT.zip",
+          "url": "dev-bundle-26.1.2.local-SNAPSHOT.zip",
+          "size": 25681873,
+          "sha512": "c5046a4487d9a21cbe4a930c951e67ee644167ce319ea0c7311e93d1f3abcb9283a1dba4cb534ddd3523d45f14684572fca95d5ca75428f3b4e0ea6d04b29780",
+          "sha256": "f36b157aec98145544865d28148f5d063af579d652a893c0f06405fbb856c049",
+          "sha1": "cc04353d3f27f31f48b42fd3eb5528364b14f8dc",
+          "md5": "903a7610f6b2162724e4d3e40a5324e1"
+        }
+      ]
+    },
+    {
+      "name": "serverRuntimeClasspath",
+      "attributes": {
+        "io.papermc.paperweight.dev-bundle-output": "serverDependencies",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.xerial",
+          "module": "sqlite-jdbc",
+          "version": {
+            "requires": "3.49.1.0"
+          }
+        },
+        {
+          "group": "com.mysql",
+          "module": "mysql-connector-j",
+          "version": {
+            "requires": "9.2.0"
+          }
+        },
+        {
+          "group": "com.lmax",
+          "module": "disruptor",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "dev.folia",
+          "module": "folia-api",
+          "version": {
+            "requires": "26.1.2.local-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ca.spottedleaf",
+          "module": "concurrentutil",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-ffm",
+          "version": {
+            "requires": "3.27.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jni",
+          "version": {
+            "requires": "3.27.1"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-ansi"
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "com.velocitypowered",
+          "module": "velocity-native",
+          "version": {
+            "requires": "3.4.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-haproxy",
+          "version": {
+            "requires": "4.2.7.Final"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-iostreams",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.lucko",
+          "module": "spark-api",
+          "version": {
+            "requires": "0.1-20240720.200737-2"
+          }
+        },
+        {
+          "group": "me.lucko",
+          "module": "spark-paper",
+          "version": {
+            "requires": "1.10.152"
+          }
+        },
+        {
+          "group": "io.papermc",
+          "module": "mache",
+          "version": {
+            "requires": "26.1.2+build.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "serverCompileClasspath",
+      "attributes": {
+        "io.papermc.paperweight.dev-bundle-output": "serverDependencies",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.folia",
+          "module": "folia-api",
+          "version": {
+            "requires": "26.1.2.local-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ca.spottedleaf",
+          "module": "concurrentutil",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-ffm",
+          "version": {
+            "requires": "3.27.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jni",
+          "version": {
+            "requires": "3.27.1"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-ansi"
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "com.velocitypowered",
+          "module": "velocity-native",
+          "version": {
+            "requires": "3.4.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-haproxy",
+          "version": {
+            "requires": "4.2.7.Final"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-iostreams",
+          "version": {
+            "requires": "2.25.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.lucko",
+          "module": "spark-api",
+          "version": {
+            "requires": "0.1-20240720.200737-2"
+          }
+        },
+        {
+          "group": "me.lucko",
+          "module": "spark-paper",
+          "version": {
+            "requires": "1.10.152"
+          }
+        },
+        {
+          "group": "io.papermc",
+          "module": "mache",
+          "version": {
+            "requires": "26.1.2+build.1"
+          }
+        }
+      ]
+    }
+  ]
+}
