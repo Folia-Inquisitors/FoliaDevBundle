@@ -3,7 +3,7 @@
   <groupId>dev.folia</groupId>
   <artifactId>dev-bundle</artifactId>
   <versioning>
-    <latest>26.1.2.local-SNAPSHOT</latest>
+    <latest>26.2.local-SNAPSHOT</latest>
     <release>unspecified</release>
     <versions>
       <version>1.21.5-R0.1-SNAPSHOT</version>
@@ -13,7 +13,8 @@
       <version>1.21.11-R0.1-SNAPSHOT</version>
       <version>unspecified</version>
       <version>26.1.2.local-SNAPSHOT</version>
+      <version>26.2.local-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260506143257</lastUpdated>
+    <lastUpdated>20260704171826</lastUpdated>
   </versioning>
 </metadata>
