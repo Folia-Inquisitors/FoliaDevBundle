@@ -3,25 +3,25 @@
   <groupId>dev.folia</groupId>
   <artifactId>dev-bundle</artifactId>
   <versioning>
-    <lastUpdated>20260811060200</lastUpdated>
+    <lastUpdated>20260819103908</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
+        <extension>zip</extension>
         <value>26.2.local-SNAPSHOT</value>
-        <updated>20260811060200</updated>
+        <updated>20260819103908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>26.2.local-SNAPSHOT</value>
-        <updated>20260811060200</updated>
+        <updated>20260819103908</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>zip</extension>
+        <extension>module</extension>
         <value>26.2.local-SNAPSHOT</value>
-        <updated>20260811060200</updated>
+        <updated>20260819103908</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
