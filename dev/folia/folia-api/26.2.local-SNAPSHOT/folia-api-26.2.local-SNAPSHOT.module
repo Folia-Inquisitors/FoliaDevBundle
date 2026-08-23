@@ -165,11 +165,11 @@
         {
           "name": "folia-api-26.2.local-SNAPSHOT.jar",
           "url": "folia-api-26.2.local-SNAPSHOT.jar",
-          "size": 2886543,
-          "sha512": "dd8d3450c64ae8513f08d2b9b73b327b587e7f9031c9915382521d465fea50e9ea6fd77e78a7f71d6113731567013ae8cc83577333798aaf1ba90e3bd26b9be8",
-          "sha256": "21909fb0d7a396b4d5d6d5e488490fe148e1c23e05fe80ece80a8e93bdbdd5aa",
-          "sha1": "f7e099cac522f80a8222075e65862e814373c283",
-          "md5": "b3b3497bff1a9ce2e8f1093b4a1be051"
+          "size": 2886504,
+          "sha512": "92ecb8b0a0dfefec867c4abc7480c4cec730b10442a537a4532f9fb52f1787024960a1311596adf7d6cf3769332db71596e49769b4defacde138978787911829",
+          "sha256": "9016434a86d08c1a0b732c958b7cee1840e35a0c4bff0ad01c3a18d94bb1617f",
+          "sha1": "9b0fd162adfc926badf8f75012a0dfbf54e18ae9",
+          "md5": "00c20311ed572ffc0848023edcad6bc9"
         }
       ],
       "capabilities": [
@@ -363,11 +363,11 @@
         {
           "name": "folia-api-26.2.local-SNAPSHOT.jar",
           "url": "folia-api-26.2.local-SNAPSHOT.jar",
-          "size": 2886543,
-          "sha512": "dd8d3450c64ae8513f08d2b9b73b327b587e7f9031c9915382521d465fea50e9ea6fd77e78a7f71d6113731567013ae8cc83577333798aaf1ba90e3bd26b9be8",
-          "sha256": "21909fb0d7a396b4d5d6d5e488490fe148e1c23e05fe80ece80a8e93bdbdd5aa",
-          "sha1": "f7e099cac522f80a8222075e65862e814373c283",
-          "md5": "b3b3497bff1a9ce2e8f1093b4a1be051"
+          "size": 2886504,
+          "sha512": "92ecb8b0a0dfefec867c4abc7480c4cec730b10442a537a4532f9fb52f1787024960a1311596adf7d6cf3769332db71596e49769b4defacde138978787911829",
+          "sha256": "9016434a86d08c1a0b732c958b7cee1840e35a0c4bff0ad01c3a18d94bb1617f",
+          "sha1": "9b0fd162adfc926badf8f75012a0dfbf54e18ae9",
+          "md5": "00c20311ed572ffc0848023edcad6bc9"
         }
       ],
       "capabilities": [
@@ -416,11 +416,11 @@
         {
           "name": "folia-api-26.2.local-SNAPSHOT-sources.jar",
           "url": "folia-api-26.2.local-SNAPSHOT-sources.jar",
-          "size": 2051330,
-          "sha512": "f3b130cb4a729bc63e6b5cae838ad50a2b9f957bfd1a67737378481e6914effee4c823a3369cbca0f55a4b2ac969f533575dcb8ad8b7eab8f8a0bde569fe4f4c",
-          "sha256": "3e2fcb417ac2cc44bfe8ca4096bbf9d231f091f5077e41f6aa5d5d0c5ded2cf6",
-          "sha1": "69c30cf4c7774100b59ce2e2026376316c5baab0",
-          "md5": "e81f8ec7c6d07c6416654fbf5799cebf"
+          "size": 2051303,
+          "sha512": "1ea5a66084d10e599b20f31d440abf3eda39e788217f0029f2f73e4751f951bb3f528689c3ad356edc70003c21efb151baa4540d90fc34eabca2b488140c6e51",
+          "sha256": "c1370f68acc671dde3ebb10fafc988a07ac3026ac046f0040440f329b1cbd935",
+          "sha1": "b86f795466f9210d3e5ef8f270b95f311a191b37",
+          "md5": "8cb7ab3d01f20ba7ddbb8666cb1377d2"
         }
       ],
       "capabilities": [

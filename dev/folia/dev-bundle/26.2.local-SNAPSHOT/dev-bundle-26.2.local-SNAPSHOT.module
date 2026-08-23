@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-26.2.local-SNAPSHOT.zip",
           "url": "dev-bundle-26.2.local-SNAPSHOT.zip",
-          "size": 26007600,
-          "sha512": "4c6a32e83c997ca827e11c55be03d3a66a32b4cf36781dd1b6634bd64af934dce41d3f6369639385c17bb8d9f2474bada025739887a022b625b740e9282e07f1",
-          "sha256": "4318513f6ceee135c3cb486b4fc18a8e95fc61602ca762cce108a5c70b14ded9",
-          "sha1": "0125773ef7d54e78102129228e5e14d8cba2ac38",
-          "md5": "60d77f67bd6121d0a049c17c7ceb9814"
+          "size": 26007027,
+          "sha512": "e1ca9e43b88f4936f0855dd66f4063ea2f2c905f6846244d2029ad6536ae11bf61e9017ff7faa4c94efc4bfc268b5224cf437d0b8ce8e9c0d1e804e56ca50917",
+          "sha256": "b9706a84a3661c63277bb5acf95bd1c4c225ed405c90b8facab25e2776e6ff10",
+          "sha1": "e238052a93abf7b171821dc16e22d0e96013c9b7",
+          "md5": "d8a990983bb817d853b1395aa88a403d"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "group": "ca.spottedleaf",
           "module": "leafpile",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.1.0"
           }
         },
         {
@@ -177,7 +177,7 @@
           "group": "me.lucko",
           "module": "spark-paper",
           "version": {
-            "requires": "1.10.172"
+            "requires": "1.10.177"
           }
         },
         {
@@ -207,7 +207,7 @@
           "group": "ca.spottedleaf",
           "module": "leafpile",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.1.0"
           }
         },
         {
@@ -307,7 +307,7 @@
           "group": "me.lucko",
           "module": "spark-paper",
           "version": {
-            "requires": "1.10.172"
+            "requires": "1.10.177"
           }
         },
         {
