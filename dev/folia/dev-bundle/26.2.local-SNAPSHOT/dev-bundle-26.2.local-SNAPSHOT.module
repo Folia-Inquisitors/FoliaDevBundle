@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-26.2.local-SNAPSHOT.zip",
           "url": "dev-bundle-26.2.local-SNAPSHOT.zip",
-          "size": 26007027,
-          "sha512": "e1ca9e43b88f4936f0855dd66f4063ea2f2c905f6846244d2029ad6536ae11bf61e9017ff7faa4c94efc4bfc268b5224cf437d0b8ce8e9c0d1e804e56ca50917",
-          "sha256": "b9706a84a3661c63277bb5acf95bd1c4c225ed405c90b8facab25e2776e6ff10",
-          "sha1": "e238052a93abf7b171821dc16e22d0e96013c9b7",
-          "md5": "d8a990983bb817d853b1395aa88a403d"
+          "size": 26014752,
+          "sha512": "2ebb2c7561e36c1098e79e3a0f8b42a7ae881016bba82d1165eccb26a9acdc61fe93920398f7a262c1c4a9af3898c5d6e78a684c3ceb591f0ba8f364059076be",
+          "sha256": "a2b7fca4f2b72402c6dd1fe83f4dbcad69b9e32909936c84f6f1f9c4499a6573",
+          "sha1": "286456b20af09ab321c38d9d8712ea978a2bb4b4",
+          "md5": "91ea0854ff404a95ee6f9e7f3481c32e"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "group": "ca.spottedleaf",
           "module": "leafpile",
           "version": {
-            "requires": "1.1.0"
+            "requires": "1.2.0"
           }
         },
         {
@@ -116,7 +116,7 @@
           "group": "com.velocitypowered",
           "module": "velocity-native",
           "version": {
-            "requires": "3.4.0-SNAPSHOT"
+            "requires": "4.1.0"
           },
           "excludes": [
             {
@@ -207,7 +207,7 @@
           "group": "ca.spottedleaf",
           "module": "leafpile",
           "version": {
-            "requires": "1.1.0"
+            "requires": "1.2.0"
           }
         },
         {
@@ -246,7 +246,7 @@
           "group": "com.velocitypowered",
           "module": "velocity-native",
           "version": {
-            "requires": "3.4.0-SNAPSHOT"
+            "requires": "4.1.0"
           },
           "excludes": [
             {
