@@ -3,7 +3,7 @@
   <groupId>dev.folia</groupId>
   <artifactId>folia-api</artifactId>
   <versioning>
-    <latest>26.2.local-SNAPSHOT</latest>
+    <latest>26.3.local-SNAPSHOT</latest>
     <release>unspecified</release>
     <versions>
       <version>1.21.5-R0.1-SNAPSHOT</version>
@@ -14,7 +14,8 @@
       <version>unspecified</version>
       <version>26.1.2.local-SNAPSHOT</version>
       <version>26.2.local-SNAPSHOT</version>
+      <version>26.3.local-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260922143700</lastUpdated>
+    <lastUpdated>20261014213215</lastUpdated>
   </versioning>
 </metadata>
