@@ -38,6 +38,11 @@
     </dependency>
     <dependency>
       <groupId>ca.spottedleaf.leafpile</groupId>
+      <artifactId>ioutil</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ca.spottedleaf.leafpile</groupId>
       <artifactId>profiler</artifactId>
       <scope>compile</scope>
     </dependency>
