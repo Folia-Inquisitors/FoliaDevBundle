@@ -3,7 +3,7 @@
   <groupId>dev.folia</groupId>
   <artifactId>folia-api</artifactId>
   <versioning>
-    <lastUpdated>20261020230748</lastUpdated>
+    <lastUpdated>20261030051027</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -12,28 +12,28 @@
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>26.3.local-SNAPSHOT</value>
-        <updated>20261020230748</updated>
+        <updated>20261030051027</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>26.3.local-SNAPSHOT</value>
-        <updated>20261020230748</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>26.3.local-SNAPSHOT</value>
-        <updated>20261020230748</updated>
+        <updated>20261030051027</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>26.3.local-SNAPSHOT</value>
-        <updated>20261020230748</updated>
+        <updated>20261030051027</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>26.3.local-SNAPSHOT</value>
-        <updated>20261020230748</updated>
+        <updated>20261030051027</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>26.3.local-SNAPSHOT</value>
+        <updated>20261030051027</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
