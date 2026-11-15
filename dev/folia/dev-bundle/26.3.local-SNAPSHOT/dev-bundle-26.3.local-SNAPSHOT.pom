@@ -132,7 +132,7 @@
     <dependency>
       <groupId>io.papermc</groupId>
       <artifactId>mache</artifactId>
-      <version>26.3+build.1</version>
+      <version>26.3+build.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-26.3.local-SNAPSHOT.zip",
           "url": "dev-bundle-26.3.local-SNAPSHOT.zip",
-          "size": 26818551,
-          "sha512": "f3e8c159aada5812e02f27c27c83d736154370cde6b3564338049c9c10f2bdf3981e142d95769a0e24b95bd72b1424d1b027038e279234c80decbd7509f28e68",
-          "sha256": "54c16427bfcd85b769902ef7bc482d96c65fda77a2cbc55f553ec7d8cb8183fb",
-          "sha1": "e284a8c8ca66d1c9ec4d21e60a0e63bebca99ce8",
-          "md5": "68bdcfc4b45b397f8ff2caf7d7362eaa"
+          "size": 26838876,
+          "sha512": "8e2b2152dcff0b18efd796aaf11910de5f0a882b52001597ab5a14990ecaffdbdadbfafa8ab598ac4864277f3cde185981be671da46acf9a82522cfbf3fa846a",
+          "sha256": "18e95da5ed26c6adfb20f1d5446d303d1f762cea2bfc81b249023c61b2ada12e",
+          "sha1": "b126ce9acc34e21f09361adea38fea5233f6b719",
+          "md5": "9b96dde3d2ebe583257257ca4f6c4878"
         }
       ]
     },
@@ -201,7 +201,7 @@
           "group": "io.papermc",
           "module": "mache",
           "version": {
-            "requires": "26.3+build.1"
+            "requires": "26.3+build.2"
           }
         }
       ]
@@ -348,7 +348,7 @@
           "group": "io.papermc",
           "module": "mache",
           "version": {
-            "requires": "26.3+build.1"
+            "requires": "26.3+build.2"
           }
         }
       ]
