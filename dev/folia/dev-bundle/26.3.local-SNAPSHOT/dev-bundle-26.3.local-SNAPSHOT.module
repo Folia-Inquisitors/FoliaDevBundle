@@ -23,11 +23,11 @@
         {
           "name": "dev-bundle-26.3.local-SNAPSHOT.zip",
           "url": "dev-bundle-26.3.local-SNAPSHOT.zip",
-          "size": 26840242,
-          "sha512": "b0bac5d3b54e516b70507895bb877ee28d57e6e1146fde49c72bcf410f2ccded90c620b4a6626aa107ce7853738b20da0e7fa5cdf076516cbdae26103f1f5c21",
-          "sha256": "21f8bc95d215fc2d71e00872cb30912d3259e1daa9607899eaf1431419c2c481",
-          "sha1": "68572b31a0891248f7cf2de805d07ce5b1c1484c",
-          "md5": "894f4f0d5970bcebe9e4434631d4e99e"
+          "size": 26840447,
+          "sha512": "6af99cc39e20a4e54b884221e8770d2efe54ce114dad7e61b519ea5036de657d38d075cda5bb4683efae0a66d08085365367f2ae373184a8c927e80ac3843a1e",
+          "sha256": "cd714c536204b0cfdbf03067bc5ae1c70dc200b8ef5f9edec08334d25309ddda",
+          "sha1": "6f2552e024bf810168f9b4728ed8f6b0bfd45f57",
+          "md5": "0a062b3e4f85144827658022d56260d6"
         }
       ]
     },
